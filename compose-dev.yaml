@@ -3,7 +3,7 @@ services:
     entrypoint:
     - sleep
     - infinity
-    image: jevo1900/devenv:rust
+    image: jevo1900/dockerenv:rust
     init: true
     volumes:
     - type: bind
